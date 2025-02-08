@@ -17,17 +17,9 @@
     display: none !important;
 }
 
-// Side bar
+/*  Side bar */
 .part.sidebar {
     box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
-}
-
- /* File Explorer Selected Item */
-.monaco-list.list_id_1 .monaco-list-row.selected {
-    background-color: #4f5971 !important;
-    opacity: 1 !important;
-    border-top: 1px #727b90 solid;
-    border-bottom: 1px #727b90 solid;
 }
 
 /* List item label name */
@@ -82,17 +74,6 @@
     display: block !important;
 }
 
-/* Tooltip box style */
-.monaco-editor-hover,
-.monaco-hover {
-    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
-    padding: 10px !important;
-    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
-    backdrop-filter: blur(3px) !important;
-    border-radius: 20px !important;
-    border: none !important
-}
-
 /*  Project title's style at the top */
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
     border: none !important;
@@ -108,7 +89,7 @@
 
 /*  Search Label */
 .search-label {
-    font-family: 'Geist Mono' !important;
+    font-family: 'Inter', sans-serif !important;
     font-size: 14px !important;
     color: #fff;
     display: block;
@@ -137,7 +118,7 @@
     top: 50% !important;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
     padding: 10px 10px 18px 10px !important;
-    background-image: #2e3440 !important;
+    background-image: /* #2e3440 */ #3877FF !important;
     backdrop-filter: blur(3px) !important;
     border-radius: 20px !important;
 }
