@@ -3,7 +3,7 @@
     "workbench.colorCustomizations": {
         "statusBar.background": "#3877FF",
         "statusBar.foreground": "#FFFFFF"
-    }, 
+    },
     "window.title": "${dirty}${activeEditorShort}",
     "explorer.confirmDelete": false,
     "liveServer.settings.donotShowInfoMsg": true,
